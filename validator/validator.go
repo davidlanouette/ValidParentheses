@@ -1,7 +1,5 @@
 package validator
 
-import "fmt"
-
 // ValidateParens checks if the parens are ballanced in the input string.
 func ValidateParens(in string) bool {
 	if len(in) == 0 {
@@ -12,7 +10,6 @@ func ValidateParens(in string) bool {
 
 	for x < len(in) {
 		ch := in[x]
-		fmt.Println(ch)
 		switch ch {
 		case '(':
 			sum++

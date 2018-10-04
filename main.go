@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-	fmt.Println(len(os.Args))
 	if (len(os.Args)) <= 1 {
 		fmt.Println("You must specify an input string")
 		return
